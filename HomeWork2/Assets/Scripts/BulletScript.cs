@@ -9,8 +9,6 @@ public class BulletScript : MonoBehaviour
    private Rigidbody _rb;
    [SerializeField] private float _forceZ=10f;
    
-  
-  
    private void Awake()
    {
       _rb = GetComponent<Rigidbody>();
